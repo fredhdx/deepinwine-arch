@@ -1,7 +1,9 @@
 # deepinwine-arch
 打包了deepin上的wine qq,tim以及所需依赖到archlinux 上
 
-文件夹里的都是PKGBUILD（有时间传AUR上去）
+文件夹里的都是PKGBUILD
+
+已经传到AUR了，可以直接从AUR里面安装
 
 克隆项目到本地，在每一个文件夹中执行makepkg -si （先在deepin-udis86 deepin-wine-uninstalle deepin-libwiner deepin-fonts-wine deepin-wine32 deepin-wine-helper中执行），最后到deepin-wine
 
